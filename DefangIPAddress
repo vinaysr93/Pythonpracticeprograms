@@ -1,0 +1,17 @@
+class Solution(object):
+    def defangIPaddr(self, address):
+    
+        
+        arr=list(address)
+        newaddress=[]
+        for x in address:
+            
+            if x=='.':
+                newaddress.append('[.]')
+            else:
+                newaddress.append(x)
+                
+        return ("".join(newaddress))
+
+s=Solution()
+print(s.defangIPaddr("1.1.1.1"))
