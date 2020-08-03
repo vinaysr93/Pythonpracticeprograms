@@ -1,0 +1,38 @@
+class MyHashSet():
+
+    def __init__(self):
+        self.bucket=[]
+        
+        
+
+    def add(self, key):
+        
+        found=False
+        for i,k in enumerate(self.bucket):
+
+            if k==key:
+              self.bucket[i]=key
+              found=True
+              break
+        
+        if not found:
+              self.bucket.append(key)
+        
+
+    def remove(self, key):
+    
+          for i,k in enumerate(self.bucket):
+
+              if k==key:
+                del self.bucket[i]
+        
+
+    def contains(self, key):
+
+          for k in self.bucket:
+
+              if key==k:
+                return True
+
+          return False
+        
