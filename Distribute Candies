@@ -1,0 +1,12 @@
+class Solution:
+    def distributeCandies(self, candy_list):
+
+      count=set(candy_list)
+      can_eat=len(candy_list)/2
+
+      if len(count)>=can_eat:
+        return int(can_eat)
+      
+      else:
+        return int(len(count))
+        
