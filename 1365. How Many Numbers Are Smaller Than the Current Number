@@ -1,0 +1,9 @@
+class Solution:
+    def smallerNumbersThanCurrent(self, nums):
+        sa=sorted(nums)
+        rear=[]
+        print(sa)
+        for x in nums:
+            q=sa.index(x)
+            rear.append(q)
+        return (rear)
