@@ -1,0 +1,41 @@
+class Solution:
+    def buddyStrings(self, a, b) :
+        
+        swap_list_a=[]
+        swap_list_b=[]
+       
+        diff=0
+
+        if len(a)==len(b):
+
+              for x in range(len(a)):
+
+                  if a[x]!=b[x]:
+                       swap_list_a.append(a[x])
+                       swap_list_b.append(b[x])
+                       diff=diff+1
+
+              if diff==2:
+
+                      if swap_list_a[::-1]==swap_list_b:
+                            return True
+                      else:
+                            return False
+
+              elif diff==0:
+                        da={}
+              
+                        for i in list(a):
+
+                          if i in da:
+                            da[i]=da[i]+1
+                          else:
+                            da.setdefault(i,1)
+                        for j in da.values():
+
+                              if j>1:
+                                return True
+
+                        return False
+        else:
+            return False  
