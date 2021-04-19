@@ -1,0 +1,11 @@
+class Solution:
+    def maximumWealth(self, accounts):
+        
+        maxi=-1
+        
+        for i in accounts:
+            
+            s=sum(i)
+            if s>maxi:
+                maxi=s
+        return maxi
