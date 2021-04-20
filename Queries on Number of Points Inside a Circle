@@ -1,0 +1,23 @@
+class Solution:
+    
+
+    def countPoints(self, points, queries):
+    
+      res=[]
+      for i in queries:
+        count=0
+
+        centrex=i[0]
+        centrey=i[1]
+        radius=i[2]
+        for j in points:
+
+          cx=j[0]
+          cy=j[1]
+
+          distance=((centrex-cx)**2+(centrey-cy)**2)**0.5
+          if distance<=radius:
+            count=count+1
+
+        res.append(count)
+      return res
