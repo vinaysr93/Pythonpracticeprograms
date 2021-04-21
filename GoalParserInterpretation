@@ -1,0 +1,35 @@
+class Solution:
+    def interpret(self,str):
+
+     res=[]
+     temp=[]
+     count=0
+     for x in str:
+       
+        if x=="G" and count==0:
+         res.append(x)
+
+        if count==1:
+          temp.append(x)
+
+        if x==")":
+          s="".join(temp)
+
+          if s=="()":
+            word="o"
+          if s=="(al)":
+            word="al"
+          res.append(word)  
+          count=0
+          temp=[]
+
+        if x=="(":
+         temp.append(x)
+         count=1
+        
+     return "".join(res)
+
+q=Solution()
+print(q.interpret("(al)G(al)()()G"))
+ 
+            
