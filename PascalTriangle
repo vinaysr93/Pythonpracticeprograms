@@ -1,0 +1,16 @@
+import math
+class Solution:
+    def generate(self, rowIndex):
+        
+      result=[]
+      for x in range(rowIndex+1):
+          temp=[]
+          for j in range(x+1):
+
+            r=int((math.factorial(x))/(math.factorial(x-j)*math.factorial(j)))
+            
+            temp.append(r)
+          result.append(temp)
+      return result[rowIndex]
+s=Solution()
+print(s.generate(50))
