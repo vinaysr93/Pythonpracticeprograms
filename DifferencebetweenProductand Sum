@@ -1,0 +1,9 @@
+class Solution:
+    def subtractProductAndSum(self, n):
+        
+        l=list(map(int,str(n)))
+        s=sum(l)
+        pr=1
+        for x in range(len(l)):
+          pr=pr*l[x]
+        return (pr-s)
