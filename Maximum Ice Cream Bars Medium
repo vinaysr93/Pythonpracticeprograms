@@ -1,0 +1,19 @@
+class Solution:
+    def maxIceCream(self, costs, coins):
+
+      l=sorted(costs)
+      s=0
+      count=0
+     
+      for x in range (len(l)):
+        
+        s=s+l[x]
+        
+        if s>coins:
+          break
+        
+        else:
+          
+          count=count+1
+
+      return count
