@@ -1,0 +1,12 @@
+class Solution:
+    def thirdMax(self, nums):
+        
+        q=sorted(list(set(nums)),reverse=True)
+
+        if len(q)>=3:
+          return q[2]
+        else:
+          return q[0]
+
+s=Solution()
+print(s.thirdMax([2,2,3,1]))
