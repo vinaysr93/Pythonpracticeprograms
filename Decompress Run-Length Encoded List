@@ -1,0 +1,13 @@
+class Solution:
+    def decompressRLElist(self, nums):
+
+      l=len(nums)
+      result=[]
+
+      for x in range(1,l,2):
+
+        freq=nums[x-1]
+        value=nums[x]
+
+        for y in range(freq):
+          result.append(value)
