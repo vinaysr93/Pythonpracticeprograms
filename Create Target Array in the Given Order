@@ -1,0 +1,10 @@
+class Solution:
+    def createTargetArray(self, nums, index):
+        
+        ar=[]
+
+        for x in range(len(nums)):
+
+          ar.insert(index[x],nums[x])
+        
+        return ar
