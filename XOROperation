@@ -1,0 +1,14 @@
+class Solution:
+    def decode(self, encoded, first):
+        
+
+      arra=[]
+      arra.append(first)
+
+       
+      for x in range(len(encoded)):
+
+        k=arra[-1]^encoded[x]
+        arra.append(k)
+
+      return arra
