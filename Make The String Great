@@ -1,0 +1,35 @@
+class Solution:
+    def makeGood(self, s: str) -> str:
+        
+        r=list(s)
+        r1=r
+        x=1
+        while x<len(r):
+
+            t=r1[x]
+            t1=r1[x-1]
+
+            if t.isupper():
+             
+             if t1.islower():
+
+              if t.lower()==t1:
+
+                 del r1[x-1:x+1] 
+                 x=1
+                 continue 
+            
+            if t.islower():
+
+             if t1.isupper():
+
+               if t.upper()==t1:
+
+                 del r1[x-1:x+1]
+                 x=1
+                 continue
+
+            
+            x=x+1
+        
+        return "".join(r1)
