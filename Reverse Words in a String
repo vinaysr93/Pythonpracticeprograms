@@ -1,0 +1,13 @@
+class Solution:
+    def reverseWords(self, s):
+
+      r=list(s.split())
+      
+      rev=[]
+
+
+      for x in r:
+
+        q=x[::-1]
+        rev.append(q)
+      return (" ".join(rev))
