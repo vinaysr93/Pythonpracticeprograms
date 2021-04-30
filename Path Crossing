@@ -1,0 +1,29 @@
+class Solution:
+    def isPathCrossing(self, path):   
+        
+       x,y=0,0
+       paths_visited={(0,0)}
+       for z in path:
+
+         if z=="N":
+           y=y+1
+          
+         elif z=="S":
+           y=y-1
+        
+         elif z=="E":
+           x=x+1
+
+         else:
+            x=x-1
+
+         cur_path=(x,y)
+
+         if cur_path in paths_visited:
+           return True
+
+         else:
+            paths_visited.add(cur_path)
+      
+       return False
+            
