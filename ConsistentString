@@ -1,0 +1,17 @@
+class Solution:
+    def countConsistentStrings(self, allowed, words):
+      count=0
+      for x in words:
+
+        l=len(x)
+        count_letter=0
+        for y in range(l):
+          if x[y] in allowed:
+            count_letter+=1
+        if count_letter==l:
+          count+=1
+      
+      return count
+        
+s=Solution()
+print(s.countConsistentStrings(allowed = "cad", words = ["cc","acd","b","ba","bac","bad","ac","d"]))
