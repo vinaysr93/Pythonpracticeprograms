@@ -1,0 +1,20 @@
+class Solution:
+    def findKthPositive(self, arr, k):
+
+      miss_ar=[]
+      cont=1
+      while len(miss_ar)<k:
+
+        if cont in arr:
+          cont=cont+1
+        else:
+          miss_ar.append(cont)
+          cont=cont+1
+      
+      return miss_ar[-1]
+
+
+s=Solution()
+print(s.findKthPositive(arr = [1,2,3,4], k = 2))
+
+        
