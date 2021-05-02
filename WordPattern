@@ -1,0 +1,29 @@
+class Solution:
+    
+    def check(sl):
+
+      
+        pat_dic={}
+        pat_list=[]
+        count=0
+        for word in sl:
+
+          pat_dic.setdefault(word,count)
+          count=count+1
+
+        for word in sl:
+          pat_list.append(pat_dic[word])
+
+        return(pat_list)
+    
+    
+    
+    def wordPattern(self, pattern, s):
+
+      q=Solution.check("".join(list(pattern.split())))
+      r=Solution.check(list(s.split()))
+      
+      if q==r:
+        return True
+      else:
+        return False
