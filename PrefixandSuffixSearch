@@ -1,0 +1,29 @@
+class WordFilter:
+
+    def __init__(self, words):
+        self.dic={}
+        count=0
+        for x in words:
+            k=len(x)  
+            
+
+            for y in range(0,k+1):
+
+               for j in range(0,k+1):
+
+                 self.dic[x[:y]+"="+x[j:]]=count
+            count=count+1
+
+
+
+
+
+    def f(self, prefix, suffix) :
+        
+            
+      return self.dic.get(prefix+"="+suffix,-1)
+
+obj = WordFilter(["w","w","w"])
+t = obj.f("w","w")
+print(t)
+
