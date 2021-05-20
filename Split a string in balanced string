@@ -1,0 +1,23 @@
+class Solution:
+    def balancedStringSplit(self, s: str) -> int:
+        
+       f=s[0]
+       char1=0
+       char2=0
+       count=0
+       for x in range(len(s)):
+            
+           if s[x]==f:
+             char1=char1+1
+            
+           else:
+                char2=char2+1
+                
+           if char1==char2:
+                count=count+1
+                
+                if x+1<len(s)-1:
+                    f=s[x+1]
+                    char1=0
+                    char2=0
+       return count            
