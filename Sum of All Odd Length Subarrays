@@ -1,0 +1,16 @@
+class Solution:
+    def sumOddLengthSubarrays(self, arr):
+        
+        total=0
+        
+        for x in range(1,len(arr)+1,2):
+            print("X",x)
+            
+            for y in range(0,len(arr)):
+                
+                ar=arr[y:y+x]
+                
+                if len(ar)==x:
+                  total=total+sum(ar)
+                  print(ar)
+        return total
