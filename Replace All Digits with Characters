@@ -1,0 +1,12 @@
+class Solution:
+    def replaceDigits(self, s) :
+        
+        ls=[]
+        for x in range(len(s)):
+            if x%2!=0:
+                q=chr(ord(s[x-1])+int(s[x]))
+                ls.append(q)
+            else:
+                ls.append(s[x])
+                
+        return ("".join(ls))
