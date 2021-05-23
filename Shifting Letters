@@ -1,0 +1,17 @@
+class Solution:
+    def shift (self, letter, number):
+
+      r=ord(letter)
+      n=r+(number%26)
+      if n>122:
+        r=n%122
+        n=96+r
+      return chr(n)
+    
+    
+    def shiftingLetters(self, s, shifts):
+        r=[]
+        for x in range(len(s)):
+          q=self.shift(s[x],sum(shifts[x:]))
+          r.append(q)
+        return "".join(r)
