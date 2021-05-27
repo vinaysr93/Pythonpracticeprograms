@@ -1,0 +1,24 @@
+class Solution:
+    def countNegatives(self, grid):
+        
+        n=len(grid[0])
+
+        left=0
+        right=n-1
+        mid=(left+right)//2
+        count=0
+        for x in range(len(grid)):
+          left=0
+          right=n-1
+          mid=(left+right)//2
+       
+          while(left<=right):
+            mid=(left+right)//2
+                    
+            if grid[x][mid]<0:
+              right=mid-1
+            else:
+              left=mid+1
+            
+          count=count+len(grid[x][left:])
+        return count
