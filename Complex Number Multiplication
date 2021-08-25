@@ -1,0 +1,16 @@
+class Solution:
+    def complexNumberMultiply(self, num1: str, num2: str):
+
+      real=[]
+      comp=[]
+
+      nm1=num1.split("+")
+      nm1[1]=nm1[1][0:-1]
+      nm2=num2.split("+")
+      nm2[1]=nm2[1][0:-1]  
+      
+      r=float(nm1[0])*float(nm2[0])-float(nm1[1])*float(nm2[1])
+      c=float(nm1[0])*float(nm2[1])+float(nm1[1])*float(nm2[0])
+
+      s=str(int(r))+"+"+str(int(c))+"i"
+      return s
