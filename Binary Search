@@ -1,0 +1,25 @@
+class Solution:
+    def search(self, nums, target) :
+
+
+      l=len(nums)
+
+      
+
+      low=0
+      high=len(nums)-1
+      mid=(high+low)//2 #2
+      index=-1
+      while(low<=high):
+
+        if target>nums[mid]:
+          low=mid+1
+          mid=(low+high)//2
+        elif target<nums[mid]:
+          high=mid-1
+          mid=(low+high)//2
+        
+        elif target==nums[mid]:
+          index=mid
+          break
+      return index
