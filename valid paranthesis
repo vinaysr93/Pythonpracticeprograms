@@ -1,0 +1,38 @@
+class Solution:
+    def isValid(self, s: str):
+        
+        
+        l=["{","(","["]
+        
+        stack=[]
+        for x in s:
+            
+            if x in l:
+                stack.append(x)
+            
+            else:
+                
+                if len(stack)==0:
+                    return False
+                
+                cur=stack.pop()
+                
+                if cur=="{":
+                    
+                    if x!="}":
+                        return False
+                
+                elif cur=="[":    
+                    if x!="]":
+                        return False
+                    
+                elif cur=="(":
+                    if x!=")":
+
+                        return False
+                
+                
+        if len(stack)==0:
+            return True
+        else:
+            return False
