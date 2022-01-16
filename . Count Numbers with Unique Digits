@@ -1,0 +1,25 @@
+def num_count(t):
+        
+        k=10-t+1
+        pr=1
+        for x in range(9,k-1,-1):
+                pr=pr*x
+               
+        
+        return 9*pr
+
+def countNumbersWithUniqueDigits(self, n):
+            
+    d={0:1,1:10}
+    
+    if n==0 or n==1:
+        return d[n]
+   
+    else:
+        s=10
+        i=2
+        while i<=n:
+            
+            s=s+ Solution.num_count(i)
+            i=i+1
+        return s
