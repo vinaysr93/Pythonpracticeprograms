@@ -1,0 +1,9 @@
+class Solution:
+    def plusOne(self, digits):
+        
+        k=[str(x) for x in digits]
+        s="".join(k)
+        t=int(s)+1
+        u=list(str(t))
+        l=[int(j) for j in u]
+        return l
