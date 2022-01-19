@@ -1,0 +1,14 @@
+class Solution:
+    def maxCount(self, m, n, ops):
+        
+        d=m
+        e=n
+
+        for i in ops:
+            a=i[0]
+            b=i[1]
+            if a<d:
+                d=a
+            if b<e:
+                e=b
+        return d*e
