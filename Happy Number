@@ -1,0 +1,21 @@
+class Solution:
+    def isHappy(self, n):
+
+        s = str(n)
+
+        d={s:1}
+        while (int(s)!=1):
+            n = len(str(s))
+            t=0
+            for i in range(n):
+                t =t+(int(s[i])) ** 2
+
+            s = str(t)
+            if s in d:
+                break
+            d[s]=1
+        if int(s)==1:
+            return True
+        else:
+            return False
+
