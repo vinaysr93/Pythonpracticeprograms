@@ -1,0 +1,10 @@
+class Solution:
+    def mostWordsFound(self, sentences):
+    
+        mx=0
+        for i in sentences:
+            
+            q=len(list(i.split(" ")))
+            if q>mx:
+                mx=q
+        return mx
