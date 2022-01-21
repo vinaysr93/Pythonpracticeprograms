@@ -1,0 +1,31 @@
+class Solution:
+
+
+    def numberOfBeams(self, bank):
+
+        r = []
+
+        for x in bank:
+            t = [int(i) for i in x]
+            p = sum(t)
+            r.append(p)
+
+        newk=[]
+        for k in r:
+
+            if k == 0:
+                continue
+            else:
+                newk.append(k)
+        print(newk)
+
+        s = 0
+
+        for i in range(len(newk) - 1):
+
+            n1 = newk[i]
+            n2 = newk[i+1]
+
+            s = s + n1*n2
+            
+        return s
