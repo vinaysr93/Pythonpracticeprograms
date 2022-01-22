@@ -1,0 +1,14 @@
+class Solution:
+    def addDigits(self, num):
+
+        while(True):
+
+
+            k=str(num)
+            l=list(map(int,k))
+            add=sum(l)
+            if add<10:
+                break
+            else:
+                num=add
+        return add
