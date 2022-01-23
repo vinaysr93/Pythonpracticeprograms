@@ -1,0 +1,63 @@
+class Solution:
+    
+    def unique(word):
+        
+        unique_letters={}
+        
+        for x in word:
+            if x in unique_letters:
+                unique_letters[x]=unique_letters[x]+1
+            else:
+                unique_letters[x]=1
+        return unique_letters
+    
+    
+    def findAndReplacePattern(self, words, pattern):
+
+            pattern_unique=Solution.unique(pattern)
+
+            result=[]
+            for i in words:
+
+                word_unique=Solution.unique(i)
+
+                if len(pattern_unique.keys())==len(word_unique.keys()): # Checks if the unique letters are equal in both the words
+
+                    print('Words',i)
+                    temp={}
+                    count=0
+                    for j in pattern: # For every letter in pattern
+
+                        if i[count] in temp:
+
+                            count=count+1
+                            continue
+                        else:
+
+                            temp[i[count]]=j
+                            count=count+1# every letter in word is mapped to corresponding letter in pattern
+
+                    l=[]
+                    print("temp",temp)
+                    for k in i: # Checking if every letter in word after transformed and stored in l would give back the workd itself
+
+                        print("K",k)
+                        l.append(temp[k])
+
+
+                    s="".join(l)
+                    print(temp)
+                    print(s,pattern)
+                    if s==pattern:
+                        result.append(i)
+                        print("Result",result)
+
+            return(result)
+
+
+
+
+
+
+s=Solution()
+s.findAndReplacePattern(["abc","cba","xyx","yxx","yyx"],"abc")
