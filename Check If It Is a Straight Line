@@ -1,0 +1,38 @@
+    class Solution:
+        def checkStraightLine(self, coordinates):
+
+            y2=coordinates[1][1]
+            y1=coordinates[0][1]
+            x2=coordinates[1][0]
+            x1=coordinates[0][0]
+            flag=0
+            try:
+
+                m=(y2-y1)/(x2-x1)
+
+            except ZeroDivisionError:
+                flag=1
+                flag_count=0
+                comp=k[0][0]
+                for k in coordinates:
+                    if k[0]==comp:
+                        flag_count=flag_count+1
+                if flag_count==len(coordinates):
+                    return True
+                else:
+                    return False
+
+            l=len(coordinates)
+            count=0
+            for i in coordinates:
+
+                if ((i[1]-y1)==m*(i[0]-x1)):
+                    count=count+1
+
+            if count==len(coordinates):
+                return True
+            else: return False
+
+    s=Solution()
+    print(s.checkStraightLine(coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]
+    ))
