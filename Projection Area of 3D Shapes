@@ -1,0 +1,35 @@
+class Solution:
+    def projectionArea(self, grid):
+
+            tot=0
+            yarea=[]
+            count=0
+            l=len(grid)
+            z=0
+            dic={}
+            col_len=len(grid[0])
+            xtot=[]
+            for i in range(col_len):
+
+                dic[i]=[]
+
+            for x in grid:
+
+                yarea.append(max(x))
+                for t in range(len(x)):
+
+                    dic[t].append(x[t])
+                    if x[t]!=0:
+                        z=z+1
+
+                xt=0
+                for c,v in dic.items():
+                   g=max(v)
+                   xt=xt+g
+
+
+            tot=xt+sum(yarea)+z
+            return(tot)
+
+s=Solution()
+s.projectionArea([[1
