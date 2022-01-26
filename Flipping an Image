@@ -1,0 +1,19 @@
+class Solution:
+    def flipAndInvertImage(self, image):
+
+        transform = []
+
+        for row in image:
+
+            new_row = reversed(row)
+            trow = []
+
+            for i in new_row:
+
+                if i == 1:
+                    trow.append(0)
+                else:
+                    trow.append(1)
+            transform.append(trow)
+        return transform
+
