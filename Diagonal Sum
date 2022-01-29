@@ -1,0 +1,13 @@
+import math
+class Solution:
+    def diagonalSum(self, mat):
+
+        tot = 0
+        for x in range(len(mat)):
+
+            for y in range(len(mat[0])):
+
+                if (x + y) == (len(mat)-1) or (x - y) == 0:
+                    tot = tot + mat[x][y]
+
+        return tot
