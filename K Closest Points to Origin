@@ -1,0 +1,18 @@
+class Solution:
+    def kClosest(self, points, k):
+
+        dist = {}
+        count = 0
+        final_list = []
+        for x in points:
+            origin_distance = x[0] ** 2 + x[1] ** 2
+            s=str(x[0])+str(x[1])
+            dist[count] = origin_distance
+            count = count + 1
+
+        print(dist)
+        j = sorted(dist.values())
+
+        h={b: v for b, v in sorted(dist.items(), key=lambda item: item[1])}
+        
+        flag=0
