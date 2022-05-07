@@ -1,0 +1,21 @@
+class Solution:
+    def removeDuplicates(self, s: str) -> str:
+        
+        
+
+        ar = []
+
+        for x in s:
+
+            if ar and ar[-1][0] == x:
+                ar[-1][1] = ar[-1][1] + 1
+
+            else:
+                ar.append([x, 1])
+
+            if ar[-1][1] == 2:
+                ar.pop()
+        l=[]
+        for j in ar:
+            l.append(j[0])
+        return("".join(l))
