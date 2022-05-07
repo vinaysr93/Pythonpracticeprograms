@@ -1,0 +1,22 @@
+class Solution:
+    def removeDuplicates(self, s: str, k: int):
+        
+        
+
+        ar = deque()
+
+        for x in s:
+            if ar and ar[-1][0]==x:
+                ar[-1][1]+=1
+
+            else:
+                ar.append([x,1])
+
+            if ar[-1][1] == k:
+                ar.pop()
+
+        lst=[]
+        
+        for x in ar:
+            lst.append(x[0]*x[1])
+        return "".join(lst)
