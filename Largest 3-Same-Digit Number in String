@@ -1,0 +1,21 @@
+class Solution:
+    def largestGoodInteger(self, num):
+        
+        count=1
+        ar= {}
+        for x in range(1,len(num)):
+
+            if num[x-1]==num[x]:
+                count=count+1
+            else:
+                count=1
+
+            if count==3:
+                ar[int(num[x])]=num[x]*3
+        if ar:
+            if len(num)>=3:
+                return ar[max(ar.keys())]
+            else:
+                return ""
+        else:
+            return ""
