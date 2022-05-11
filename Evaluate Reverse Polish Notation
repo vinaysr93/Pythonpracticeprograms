@@ -1,0 +1,30 @@
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        
+        
+            nums=[]
+            if len(tokens)==1:
+                return int(tokens[0])
+
+            for x in tokens:
+
+                if x not in ['+','-','*','/']:
+                    nums.append(x)
+                    continue
+
+                else:
+                    if len(nums)>=2:
+                        a2=int(nums.pop())
+                        a1=int(nums.pop())
+                        if x=='+':
+                            c1=a1+a2
+                        elif x=='-':
+                            c1=a1-a2
+                        elif x=='*':
+                            c1=a1*a2
+                        else:
+
+                            c1=int(a1/a2)
+
+                nums.append(c1)
+            return nums[-1]
