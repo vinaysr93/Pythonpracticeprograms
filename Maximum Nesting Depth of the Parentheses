@@ -1,0 +1,15 @@
+class Solution:
+    def maxDepth(self, s) :
+
+        ar = []
+        mx = 0
+        ct=0
+        for x in s:
+            if x=='(':
+                ct=ct+1
+            elif x==')':
+                ct=ct-1
+            if ct>mx:
+                mx=ct
+
+        return mx
