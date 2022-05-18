@@ -1,0 +1,25 @@
+class Solution:
+    def maxDepth(self, students,sandwiches) :
+
+
+        count=0
+
+        while count!=len(students):
+
+            st=students.pop(0)
+            sd=sandwiches[0]
+
+            if st==sd:
+                count=0
+                sandwiches.pop(0)
+
+            else:
+
+                count=count+1
+                students.append(st)
+
+
+        return count
+
+s=Solution()
+print(s.maxDepth(students = [1], sandwiches = [1]))
