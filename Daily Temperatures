@@ -1,0 +1,17 @@
+class Solution:
+    def dailyTemperatures(self, temperatures):
+
+        result=[0 for k in range(len(temperatures))]
+        stck=[]
+        newer=[]
+        for i in range(len(temperatures)):
+
+            a=temperatures[i]
+    
+            while(len(stck)>0 and temperatures[i]>temperatures[stck[-1]]):
+                k=stck.pop()
+
+                result[k]=i-k
+            stck.append(i)
+
+        return result
