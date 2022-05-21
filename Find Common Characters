@@ -1,0 +1,16 @@
+class Solution:
+    def commonChars(self, words):
+
+        a=words[0]
+        r=len(words)
+        ar=[]
+        for x in a:
+            ct=0
+            for j in range(1,r):
+
+                if x in words[j]:
+                    ct=ct+1
+                    words[j]=words[j].replace(x,'',1)
+            if ct==r-1:
+                ar.append(x)
+        return ar
