@@ -1,0 +1,22 @@
+class Solution:
+    def validateStackSequences(self, pushed, popped):
+
+        ar=[]
+        pushed.append(-1)
+        for x in range(len(pushed)):
+
+
+            while True:
+
+                    if len(ar)>0 and len(popped)>0and (ar[-1]==popped[0]) :
+                        popped.pop(0)
+                        ar.pop()
+
+                    else:
+                         break
+            ar.append(pushed[x])
+
+        if ar[0]==-1 and len(ar)==1:
+            return True
+        else:
+            return False
