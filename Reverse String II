@@ -1,0 +1,31 @@
+class Solution:
+    def reverseStr(self, s, k):
+
+        l=len(s)
+        sl=list(s)
+        nl=[]
+        ta=[]
+        tb=[]
+        count=0
+        for x in range(l):
+
+            if count<k:
+                ta.append(s[x])
+                count=count+1
+            else:
+                tb.append(s[x])
+
+            if (x+1)%(2*k)==0:
+                count=0
+                nl.append(ta[::-1]+tb)
+                ta=[]
+                tb=[]
+
+        if len(ta)>0 or len(tb)>0:
+
+            nl.append(ta[::-1]+tb)
+
+        fs=""
+        for y in nl:
+            fs=fs+"".join(y)
+        return(fs)
