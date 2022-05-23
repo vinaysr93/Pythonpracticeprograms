@@ -1,0 +1,25 @@
+class Solution:
+    def removeOuterParentheses(self, s):
+
+        dic={'(':0,')':0}
+        ar= []
+        k=[]
+
+        for x in s:
+
+            if x=='(':
+                dic['(']+=1
+                ar.append(x)
+            elif x==')':
+                dic[')']+=1
+                ar.append(x)
+            if dic['(']==dic[')']:
+                dic['(']=0
+                dic[')']=0
+                ar.pop(0)
+                ar.pop()
+
+                k.append("".join(ar))
+                ar=[]
+
+        return("".join(k))
