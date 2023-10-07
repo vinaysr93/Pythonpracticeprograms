@@ -1,0 +1,10 @@
+class Solution:
+    def convertTemperature(self, celsius):
+
+      kelvin=round(float(celsius+273.15),5)
+      fahrenheit=round(float(celsius*1.8+32),5)
+
+      return [kelvin,fahrenheit]
+      
+      
+        
