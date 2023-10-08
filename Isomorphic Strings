@@ -1,0 +1,48 @@
+class Solution:
+    def isIsomorphic(self, s, t):
+        
+
+        dic={}
+
+        if len(s)!=len(t):
+            return False
+
+        else:
+
+          #Creates first dictionary
+
+            for i in range(len(s)):
+                
+                if s[i] in dic:
+                    continue
+                else:
+                    dic[s[i]]=t[i]
+            ns=[]
+            for k in s:
+                
+                letter=dic[k]
+                ns.append(letter)
+            print(dic)
+            fs1="".join(ns)
+            print(fs1)
+          
+            nd={i:j for j,i in dic.items()}
+            ns=[]
+            for k in t:
+              if k in nd:
+                letter=nd[k]
+                ns.append(letter)
+            print(nd)
+            fs2="".join(ns)
+            print(fs2)
+      
+  
+            if fs1==t:
+
+                if fs2==s:
+                  
+                  return True
+                else:return False
+            else:
+                return False
+          
