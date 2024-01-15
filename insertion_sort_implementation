@@ -1,0 +1,16 @@
+# This program is to implement insertion sort algorithm
+
+def insertion_sort(arr):
+
+   for x in range(1, len(arr)):
+
+      print(arr)
+      k=x
+      while (arr[k-1]>arr[k] and k>0):
+        arr[k-1],arr[k]=arr[k],arr[k-1]
+        k=k-1
+
+   return arr
+
+s=insertion_sort([8,7,5,4,3,2,1])
+print(s)
