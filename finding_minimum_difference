@@ -1,0 +1,18 @@
+#finding minimum difference
+
+def find_min_difference(l,p):
+  diff_values=[]
+  l_sort=sorted(l)
+  print(l_sort)
+  for x in range (len(l)-p):
+
+    diff=l_sort[x+p-1]-l_sort[x]
+    diff_values.append(diff)
+
+  print(diff_values)
+  return min(diff_values)
+
+
+l=[3,4,1,9,56,7,9,12]
+p=5
+print(find_min_difference(l,p))
