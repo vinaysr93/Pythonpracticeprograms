@@ -1,0 +1,14 @@
+def odd_one(l):
+  d={}
+
+  for x in l:
+    t=str(type(x))
+    
+    if t in d:
+      d[t]=d[t]+1
+    else:
+      d[t]=1
+  for i in d.keys():
+    if d[i]==1:
+      return i.lstrip("<class").rstrip("'>").replace("'","")
+print(odd_one(eval(input().strip())))
