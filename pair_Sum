@@ -1,0 +1,81 @@
+def fanidPair(L,pairSum):
+    
+   def merge(A,B):
+
+      m=len(A)
+      n=len(B)
+
+      C,i,j,k=([],0,0,0)
+      while(k<(m+n)):
+            
+         if i==m:
+            C.extend(B[j:])
+            k=k+(n-j)
+         elif j==n:
+            C.extend(A[i:])
+            k=k+(m-i)
+
+         elif A[i]<B[j]:
+            C.append(A[i])
+
+            (i,k)=(i+1,k+1)
+         
+         else:
+            C.append(B[j])
+            (j,k)=(j+1,k+1)
+      
+      return C
+
+   def mergesort(A):
+
+      n=len(A)
+      
+      if n<=1:
+         return A
+      
+      else:
+
+         L=mergesort(A[:n//2])
+         R=mergesort(A[n//2:])   
+         B=merge(L,R)
+      
+      return B
+   
+   c=mergesort(L)
+
+
+
+   def bin_search(arr,low,high,x):
+
+
+      mid=(low+high)//2
+
+      if low<=high:
+
+         if arr[mid]==x:
+            return True
+         
+         elif x<arr[mid]:
+            return bin_search(arr,low,mid-1,x)
+         else:
+            return bin_search(arr,mid+1,high,x)
+      
+      else:
+         return False
+   #perform binary search
+
+   
+
+   for x in range(len(c)):
+
+      complement=pairSum-c[x]
+      q=c[0:x]+c[x+1:]
+      if bin_search(q,0,len(q)-1,complement):
+         return True
+   
+   return False
+
+
+L=[10, 4, 11, 5, 1, 8, 7]
+s=15
+print(fanidPair(L,s))
