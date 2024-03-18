@@ -1,0 +1,32 @@
+
+def binarySearchIndexandComparisions(L,k):
+
+    low=0
+    high=len(L)-1
+    
+    count=0
+    
+    while low<=high:
+        mid=(low+(high))//2
+        midd_ele=L[mid]
+        if k<L[mid]:
+            count=count+1
+            
+            high=mid-1
+
+        elif k>L[mid]: 
+            count=count+1
+            low=mid+1
+            
+        elif k==L[mid]:
+            count=count+1
+            return (True,count)
+    
+    else:
+        return (False,count)
+         
+
+L=[2, 6, 8, 11, 17, 23, 33, 44, 46, 50, 65]
+k=23
+
+print(binarySearchIndexandComparisions(L,k))
