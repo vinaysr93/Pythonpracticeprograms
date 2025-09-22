@@ -15,4 +15,16 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 |  |
 | ------- |
 | [0223-rectangle-area](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0223-rectangle-area) |
+## Two Pointers
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0392-is-subsequence) |
+## String
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0392-is-subsequence) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0392-is-subsequence) |
 <!---LeetCode Topics End-->
