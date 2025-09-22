@@ -11,6 +11,8 @@ class Solution:
                     
                     t_copy=t_copy[r+1:]
                     count+=1
+                else:
+                    return False
                 
             
         if count==len(s):
