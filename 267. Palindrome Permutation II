@@ -1,0 +1,56 @@
+from typing import (
+    List
+)
+import itertools
+
+class Solution:
+    """
+    @param s: the given string
+    @return: all the palindromic permutations (without duplicates) of it
+             we will sort your return value in output
+    """
+    def generate_palindromes(self, s: str) -> List[str]:
+       
+        freq={}
+
+        for i in s:
+
+            if i in freq:
+                freq[i]+=1
+            else:
+                freq[i]=1
+        
+        odd_count=0
+
+        for i,j in freq.items():
+            if j%2==1:
+                odd_count+=1
+        
+        if odd_count>1:
+            return []
+
+        
+        mid=[]
+        others=[]
+
+        for i,j in freq.items():
+
+            if j%2==1:
+                mid.append(i)
+                others.append(i*(j//2))
+            else:
+                others.append(i*(j//2))
+        print(others)
+        print(mid)
+        l=list(itertools.permutations((others)))
+        print(l)
+        nl=[]
+
+        for i in l:
+            word="".join(i)+"".join(mid)+"".join(reversed(i))
+            nl.append(word)
+        print(nl)
+        return (sorted(set(nl)))
+        
+
+            
