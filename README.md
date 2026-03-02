@@ -32,10 +32,12 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0001-two-sum) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0001-two-sum) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 ## Binary Search
 |  |
