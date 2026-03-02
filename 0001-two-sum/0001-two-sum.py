@@ -1,9 +1,17 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         
-        for x in range(len(nums)):
+        ind={}
+        
 
-           diff=target-nums[x]
+         
 
-           if diff in nums and nums.index(diff)!=x:
-                return [x,nums.index(diff)]
+        for k in range(len(nums)):
+
+            diff=target-nums[k]
+
+            if diff in ind:
+                return [k,ind[diff]]
+
+            else:
+                ind[nums[k]]=k
