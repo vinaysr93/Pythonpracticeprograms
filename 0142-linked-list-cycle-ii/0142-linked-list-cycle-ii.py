@@ -7,35 +7,37 @@
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
-       count=0
-       dic={}
-       flag=True
+      
 
        # Handles when its an empty list or a list with only one element
        if not head or not head.next:
             return None
         
-       curr_ele=head
-       dic[curr_ele]=count
+       slow=head
+       fast=head
        
 
-       while curr_ele.next is not None:
+       while  fast is not None and fast.next is not None:
 
-            curr_ele=curr_ele.next
+           
+            
+          
+                slow=slow.next
+                fast=fast.next.next
 
-            if curr_ele in dic:
-                
-                flag=False
-                return curr_ele
+                if slow==fast:
+                    slow=head
+
+                    while slow!=fast:
+                        slow=slow.next
+                        fast=fast.next
+                    
+                    return slow
+
                 
               
 
-            else:
-                count=count+1
-                dic[curr_ele]=count
 
-       if flag:
-
-            return None
+       return None
         
             
