@@ -23,6 +23,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0160-intersection-of-two-linked-lists](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0160-intersection-of-two-linked-lists) |
 | [0392-is-subsequence](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0876-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## String
 |  |
 | ------- |
@@ -67,6 +68,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0160-intersection-of-two-linked-lists](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0876-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
 |  |
 | ------- |
