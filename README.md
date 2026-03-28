@@ -18,6 +18,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 ## Two Pointers
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0160-intersection-of-two-linked-lists) |
@@ -62,6 +63,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0092-reverse-linked-list-ii](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0142-linked-list-cycle-ii) |
