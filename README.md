@@ -41,6 +41,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | ------- |
 | [0001-two-sum](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0001-two-sum) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
+| [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
 ## Hash Table
 |  |
@@ -50,6 +51,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0142-linked-list-cycle-ii](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0160-intersection-of-two-linked-lists) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
+| [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 ## Binary Search
 |  |
 | ------- |
@@ -88,5 +90,6 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 ## Simulation
 |  |
 | ------- |
+| [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
