@@ -11,6 +11,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 |  |
 | ------- |
 | [0223-rectangle-area](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0223-rectangle-area) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Geometry
 |  |
 | ------- |
@@ -44,6 +45,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Hash Table
 |  |
 | ------- |
@@ -94,4 +96,9 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0657-robot-return-to-origin](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0657-robot-return-to-origin) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+## Matrix
+|  |
+| ------- |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 <!---LeetCode Topics End-->
