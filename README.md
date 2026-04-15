@@ -33,6 +33,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0392-is-subsequence](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0392-is-subsequence) |
 | [0657-robot-return-to-origin](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0657-robot-return-to-origin) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -45,6 +46,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
+| [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Hash Table
 |  |
