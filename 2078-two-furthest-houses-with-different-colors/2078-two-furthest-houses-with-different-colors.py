@@ -3,22 +3,17 @@ class Solution:
 
 
         max_dist=0
-
+        n=len(colors)
         color_list=set(colors)
         x=0
 
-        for x in range(len(colors)-1):
-            
-         
-            for y in range(x+1,len(colors)):
+        for i  in range(len(colors)):
 
-                if colors[x]!=colors[y]:
+            if colors[i]!=colors[x]:
+                max_dist=max(max_dist,i-x)
 
-                    dis=abs(x-y)
-                   
-
-                    if dis>max_dist:
-                        max_dist=dis
+            if colors[n-1]!=colors[i]:
+                max_dist=max(max_dist,n-1-i)
      
 
         return max_dist
