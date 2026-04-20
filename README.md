@@ -47,6 +47,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2078-two-furthest-houses-with-different-colors) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
@@ -106,4 +107,8 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 |  |
 | ------- |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
+## Greedy
+|  |
+| ------- |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2078-two-furthest-houses-with-different-colors) |
 <!---LeetCode Topics End-->
