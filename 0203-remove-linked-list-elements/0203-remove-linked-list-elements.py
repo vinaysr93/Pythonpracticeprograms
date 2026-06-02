@@ -7,21 +7,24 @@ class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
         
 
-        #Need to remove the linked list
+        if head==None:
+            return head
 
-        #Edge cases - empty linkedlist, 1 value in the linkedlist
-        dummy=ListNode(-1)
+        dummy= ListNode(-1)
+
         dummy.next=head
-        current=dummy
-        
-        while current.next:# [1,2,6,3,4,5,6] 
-
-            if current.next.val==val:
-                current.next=current.next.next
-              
-            else:
-                current=current.next
-          
-                
-        return dummy.next
+        nxt=head
+        curr=dummy
       
+
+        while nxt!=None:
+
+            if nxt.val == val:
+                nxt=curr.next.next
+                curr.next=nxt
+                continue
+
+            curr=nxt
+            nxt=curr.next
+
+        return dummy.next
