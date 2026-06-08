@@ -28,6 +28,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0392-is-subsequence](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2161-partition-array-according-to-given-pivot) |
 ## String
 |  |
 | ------- |
@@ -48,6 +49,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2078-two-furthest-houses-with-different-colors) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
@@ -102,6 +104,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0657-robot-return-to-origin](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0657-robot-return-to-origin) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Matrix
 |  |
