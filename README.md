@@ -10,6 +10,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0048-rotate-image) |
 | [0223-rectangle-area](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0223-rectangle-area) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
@@ -45,6 +46,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0001-two-sum) |
+| [0048-rotate-image](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0048-rotate-image) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
@@ -109,6 +111,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0048-rotate-image) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 ## Greedy
 |  |
