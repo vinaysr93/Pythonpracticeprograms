@@ -117,4 +117,20 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 |  |
 | ------- |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2078-two-furthest-houses-with-different-colors) |
+## Tree
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
 <!---LeetCode Topics End-->
