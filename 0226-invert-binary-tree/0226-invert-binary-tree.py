@@ -20,41 +20,27 @@ class Solution:
 
     def helper(self,root):
 
-        if ((root.left==None and root.right==None)):
-           
-
-            print(root.left)
-            print(root.right)
-            temp=root.left
-            root.left=root.right
-            root.right=temp
-            print(root.left)
-            print(root.left)
-           
-        elif root.left!=None and root.right!=None:
+        if root==None:
+            return
+      
+        if root.left!=None and root.right!=None:
 
                 
            
             self.helper(root.left)
             self.helper(root.right)
             
-            temp=root.left
-            root.left=root.right
-            root.right=temp
+         
 
         elif root.left==None:
 
              self.helper(root.right)
-             temp=root.left
-             root.left=root.right
-             root.right=temp
+            
         
         elif root.right==None:
              self.helper(root.left)
-             temp=root.left
-             root.left=root.right
-             root.right=temp
-
-
-
-            
+             
+    
+        temp=root.left
+        root.left=root.right
+        root.right=temp
