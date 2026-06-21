@@ -125,19 +125,23 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | ------- |
 | [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0226-invert-binary-tree) |
+| [0965-univalued-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0965-univalued-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0226-invert-binary-tree) |
+| [0965-univalued-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0965-univalued-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0226-invert-binary-tree) |
+| [0965-univalued-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0965-univalued-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0226-invert-binary-tree) |
+| [0965-univalued-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0965-univalued-binary-tree) |
 <!---LeetCode Topics End-->
