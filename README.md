@@ -37,6 +37,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0392-is-subsequence](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0392-is-subsequence) |
 | [0657-robot-return-to-origin](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0657-robot-return-to-origin) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
+| [1189-maximum-number-of-balloons](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1189-maximum-number-of-balloons) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 ## Dynamic Programming
 |  |
@@ -65,6 +66,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0160-intersection-of-two-linked-lists](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0160-intersection-of-two-linked-lists) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
+| [1189-maximum-number-of-balloons](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1189-maximum-number-of-balloons) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Binary Search
 |  |
@@ -144,4 +146,8 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0226-invert-binary-tree) |
 | [0965-univalued-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0965-univalued-binary-tree) |
+## Counting
+|  |
+| ------- |
+| [1189-maximum-number-of-balloons](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1189-maximum-number-of-balloons) |
 <!---LeetCode Topics End-->
