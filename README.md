@@ -49,6 +49,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | ------- |
 | [0001-two-sum](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0001-two-sum) |
 | [0048-rotate-image](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0048-rotate-image) |
+| [0654-maximum-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0654-maximum-binary-tree) |
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1929-concatenation-of-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1929-concatenation-of-array) |
@@ -105,6 +106,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0234-palindrome-linked-list) |
+| [0654-maximum-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0654-maximum-binary-tree) |
 ## Simulation
 |  |
 | ------- |
@@ -127,6 +129,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | ------- |
 | [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0226-invert-binary-tree) |
+| [0654-maximum-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0654-maximum-binary-tree) |
 | [0965-univalued-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0965-univalued-binary-tree) |
 ## Depth-First Search
 |  |
@@ -145,9 +148,22 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | ------- |
 | [0101-symmetric-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0226-invert-binary-tree) |
+| [0654-maximum-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0654-maximum-binary-tree) |
 | [0965-univalued-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0965-univalued-binary-tree) |
 ## Counting
 |  |
 | ------- |
 | [1189-maximum-number-of-balloons](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1189-maximum-number-of-balloons) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0654-maximum-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0654-maximum-binary-tree) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0654-maximum-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0654-maximum-binary-tree) |
+## Cartesian Tree
+|  |
+| ------- |
+| [0654-maximum-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0654-maximum-binary-tree) |
 <!---LeetCode Topics End-->
