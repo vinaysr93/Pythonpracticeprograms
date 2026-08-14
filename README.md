@@ -39,6 +39,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 | [1189-maximum-number-of-balloons](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1189-maximum-number-of-balloons) |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -68,6 +69,7 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 | [0808-number-of-matching-subsequences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0808-number-of-matching-subsequences) |
 | [0874-walking-robot-simulation](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0874-walking-robot-simulation) |
 | [1189-maximum-number-of-balloons](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/1189-maximum-number-of-balloons) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Binary Search
 |  |
@@ -168,4 +170,8 @@ Practice Programs in Python from competitive programming sites. (Codechef, hacke
 |  |
 | ------- |
 | [0654-maximum-binary-tree](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/0654-maximum-binary-tree) |
+## Sliding Window
+|  |
+| ------- |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/vinaysr93/Pythonpracticeprograms/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 <!---LeetCode Topics End-->
